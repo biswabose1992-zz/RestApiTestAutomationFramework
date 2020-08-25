@@ -23,4 +23,4 @@ Mochawesome is a custom reporter for use with the Javascript testing framework, 
 2. Clone this repository using `git@github.com:bbc/test.git`
 3. Run command `npm install`, to install all dependencies.
 4. Run command `npm run test`
-5. After tests finish results will be created in mochawesome-report folder in both JSON & HTML format. Run `npm un open:report` to open in browser directly
+5. After tests finish results will be created in mochawesome-report folder in both JSON & HTML format. Run `npm run open:report` to open in browser directly
