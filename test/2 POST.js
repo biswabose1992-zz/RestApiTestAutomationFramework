@@ -1,5 +1,6 @@
 const assert = require('assert')
 const request= require('request')
+const config=require("../utils/config")
 
 
 /**
@@ -12,7 +13,7 @@ describe("Code to verify POST query ",function(){
 
    it("Create a resource-POST",function(done){
          const options = {  
-            url: 'https://jsonplaceholder.typicode.com/posts',
+            url: config.baseurl+'/posts',
             method: 'POST',
             headers:
             { "Content-type": "application/json; charset=UTF-8"

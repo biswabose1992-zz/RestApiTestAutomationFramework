@@ -1,6 +1,6 @@
 const assert = require('assert')
 const request= require('request')
-
+const config=require("../utils/config")
 
    /**
     * Code to verify PUT query 
@@ -16,7 +16,7 @@ describe("Code to verify PUT & PATCH query ",function(){
 
    it("Update a resource-PUT",function(done){
          const options = {  
-            url: 'https://jsonplaceholder.typicode.com/posts/1',
+            url: config.baseurl +'/posts/1',
             method: 'PUT',
             headers:
             { "Content-type": "application/json; charset=UTF-8"
@@ -46,7 +46,7 @@ describe("Code to verify PUT & PATCH query ",function(){
 
    it("Update a resource-PATCH",function(done){
       const options = {  
-         url: 'https://jsonplaceholder.typicode.com/posts/1',
+         url: config.baseurl +'/posts/1',
          method: 'PATCH',
          headers:
          { "Content-type": "application/json; charset=UTF-8"

@@ -1,5 +1,6 @@
 const assert = require('assert')
 const request= require('request')
+const config=require("../utils/config")
 
 
 /**
@@ -12,7 +13,7 @@ describe("Code to verify DELETE query ",function(){
 
    it("Create a resource-DELETE",function(done){
          const options = {  
-            url: 'https://jsonplaceholder.typicode.com/posts/1',
+            url: config.baseurl +'/posts/1',
             method: 'DELETE'
             
          };
