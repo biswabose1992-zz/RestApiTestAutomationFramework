@@ -3,7 +3,7 @@ REST API-Test Automation Framework using Mocha-Chai
 
 ### Mocha
 
-Mocha is a feature-rich JavaScript test framework running on.The framework is designed to work in any arbitrary environment and for any kind of task. It is independent from any 3rd party frameworks and only requires Node
+Mocha is a feature-rich JavaScript test framework running on Node Js.The framework is designed to work in any arbitrary environment and for any kind of task. It is independent from any 3rd party frameworks and only requires Node
 
 ### Chai
 Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.The interface used in this framework is assert.
